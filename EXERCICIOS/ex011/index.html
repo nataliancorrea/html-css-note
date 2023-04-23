@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens que se adaptam sozinhas</h1>
+    <p>Nessa paginas vamos utlizar imagens que se adaptam sozinhas utlizando a tag &lt;source&gt;, dessa forma, a pagina consegue se adapta a telas diferentes de um computador, por exemplo, melhorando a experiência do usuário.</p>
+    <picture>
+        <source media="(max-width: 800px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1100px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>utilizando audios</h1>
+    <audio preload="auto" controls loop>
+        <source src="midias/ice-e-fire.mp3.mp3" type="audio/mpeg">
+        <source src="midias/ice-e-fire.mp3.ogg" type="audio/ogg">
+        <source src="midias/ice-e-fire.mp3.wave" type="audio/wave">
+    </audio>
+</body>
+</html>

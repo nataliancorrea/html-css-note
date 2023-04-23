@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgreen;
+            margin: 0px;
+
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: orange;
+            padding: 3px;
+            box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.39);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        article {
+            background-color: limegreen;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(149, 247, 3);
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 40px;
+             box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.39);
+        }
+
+        footer {
+            background-color: orange;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 11px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 229px;
+            width: 209px;
+            margin: auto;
+            padding: 6px 45px 45px 4px;
+            background-color: white;
+            border-radius: 148px;
+            
+        }
+    </style>
+</head>
+<body>
+    <header> 
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>  
+    </header> 
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aperiam quam voluptates maiores molestiae atque dolor unde corporis et incidunt ea, officiis ratione, doloremque architecto vitae. Expedita nemo qui dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas itaque architecto debitis. Doloremque tempore consectetur accusantium beatae, ullam modi perspiciatis esse quo rerum dolore! Expedita suscipit necessitatibus laborum odit ea.
+                    </p>
+                <aside>
+                    <p>Aritgo escrito por Natália Corrêa</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Densenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola">
+        <picture>
+            <img src="natalia.png" alt="foto-natalia">
+        </picture>
+    </div>
+</body>
+</html>
