@@ -25,12 +25,13 @@ header {
     color: white;
     text-align: center;
     font-family: var(--fonte1);
-    font-size: 1.2em;
+    
 }
 
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 5vw;
 }
 
 header > p {
@@ -59,6 +60,10 @@ section {
     
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal {
     background-color: white;
     color: black;
@@ -67,11 +72,26 @@ section.normal {
 section.imagem {
     background-color: rgb(63, 63, 63);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.493);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.26);
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.432);  
+    text-shadow: 1px 1px 0px black;
+    
+}
+
+section#img01 {
+    background-image: url(../projeto-d012/imagens/background001.jpg);
+    background-size: cover;
+}
+
+section#img02 {
+    background-image: url(../projeto-d012/imagens/background002.jpg);
+    background-size: cover;
 }
 
 footer {
