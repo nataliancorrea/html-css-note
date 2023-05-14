@@ -13,16 +13,5 @@ html, body {
 
 header {
     background-color: black;
-    color: white;
-    text-align: center;
-}
-
-header  > h1 {
-    padding-top: 50px;
-    font-variant: small-caps;
-}
-
-header > p {
-    padding-bottom: 50px;
 }
 
