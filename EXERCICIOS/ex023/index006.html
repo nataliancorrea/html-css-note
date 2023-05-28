@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        caption {
+            padding: 5px;
+            font-size: 1.5em;
+
+        }
+
+        th, td {
+            border: 1px solid black;
+        }
+
+        col.cnome {
+            background-color: rgba(0, 0, 255, 0.548);
+        }
+
+        col.cgenero {
+            background-color: rgba(255, 0, 0, 0.699);
+        }
+
+        col.cidade {
+            background-color: rgba(0, 128, 0, 0.589);
+        }
+
+        col.cprof {
+            background-color: rgba(255, 255, 0, 0.637);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cgenero">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Gênero</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Luiza</td>
+                <td>F</td>
+                <td>22</td>
+                <td>Enfermeira</td>
+            </tr>
+            <tr>
+                <td>Natália</td>
+                <td>F</td>
+                <td>23</td>
+                <td>Aux. Administrativo</td>
+            </tr>
+            <tr>
+                <td>Leandro</td>
+                <td>M</td>
+                <td>32</td>
+                <td>SushiMan e Pai de Santo</td>
+            </tr>
+            <tr>
+                <td>Rosiane</td>
+                <td>F</td>
+                <td>53</td>
+                <td>Vigilante</td>
+            </tr>
+            <tr>
+                <td>Roger</td>
+                <td>M</td>
+                <td>53</td>
+                <td>Supervisor</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
